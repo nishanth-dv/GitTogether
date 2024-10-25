@@ -4,7 +4,8 @@
   "description": "GitTogether is a unique dating app designed exclusively for software developers, where coding passion meets romantic connections. Built with a tech-savvy community in mind, GitTogether enables developers to find meaningful relationships with people who share their love for technology and programming. The app offers personalized matches based on coding languages, frameworks, and even favorite development tools, fostering connections through shared interests in the world of software.",
   "main": "ebates or brainstorming, GitTogether is the perfect platform for developers to find love or new friends, all while talking shop. Whether you’re debugging code or looking to “merge” with someone special, GitTogether brings devs together for relationships that click!",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nishanth-dv/GitTogether/issues"
   },
-  "homepage": "https://github.com/nishanth-dv/GitTogether#readme"
+  "homepage": "https://github.com/nishanth-dv/GitTogether#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
